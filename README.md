@@ -18,9 +18,6 @@
 conda create -n mineru python=3.10
 conda activate mineru
 
-# 安装MinerU
-pip install magic-pdf
-
 # 安装其他依赖
 pip install -r requirements.txt
 ```
