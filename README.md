@@ -1,6 +1,8 @@
 # MinerU OCR 工具集
 
-这是一个基于PaddleOCR的文档处理工具集，支持PDF文档解析和图片文字识别。
+这是一个基于PaddleOCR 和 MinerU 的文档处理工具集，支持PDF文档解析和图片文字识别。
+MinerU项目链接: https://github.com/opendatalab/MinerU
+
 
 ## 功能特点
 
