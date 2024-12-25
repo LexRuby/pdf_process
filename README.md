@@ -125,7 +125,7 @@ python process_markdown_images.py
 
 ## 依赖要求
 
-- Python 3.7+
+- Python 3.10+
 - paddleocr
 - 其他依赖见requirements.txt
 
