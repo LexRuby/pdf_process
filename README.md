@@ -1,8 +1,29 @@
 # MinerU OCR 工具集
 
-这是一个基于PaddleOCR 和 MinerU 的文档处理工具集，支持PDF文档解析和图片文字识别。
-MinerU项目链接: https://github.com/opendatalab/MinerU
+这是一个基于[MinerU](https://github.com/opendatalab/MinerU)的PDF文档处理工具集，支持PDF文档解析和图片文字识别。
 
+## 声明
+
+本项目基于[MinerU](https://github.com/opendatalab/MinerU)开发，遵循原项目的开源协议。感谢MinerU团队提供的优秀工具。
+
+## 环境要求
+
+1. Python环境
+   - Python 3.10+（具体版本要求请参考[MinerU](https://github.com/opendatalab/MinerU)项目）
+   - 推荐使用Conda创建虚拟环境
+
+2. 创建虚拟环境
+```bash
+# 创建conda环境
+conda create -n mineru python=3.10
+conda activate mineru
+
+# 安装MinerU
+pip install magic-pdf
+
+# 安装其他依赖
+pip install -r requirements.txt
+```
 
 ## 功能特点
 
@@ -127,8 +148,10 @@ python process_markdown_images.py
 
 ## 依赖要求
 
-- Python 3.10+
-- paddleocr
+主要依赖：
+- magic-pdf (MinerU核心包)
+- paddleocr >= 2.7.0
+- paddlepaddle-gpu >= 2.5.1
 - 其他依赖见requirements.txt
 
 ## 注意事项
